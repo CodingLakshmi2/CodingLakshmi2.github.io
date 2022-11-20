@@ -1,4 +1,86 @@
-html, body {
-  height: 100%;
+body {
+  /* backgroun-color: */
+  margin:  0;
+  z-index:-1;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+  margin-top: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.pTag {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+  padding: 20px;
+  line-height: 1.7rem;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+}
+
+.pTag-card {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+}
+
+li {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+}
+
+.card {
+  margin: 50px;
+  color: black;
+  padding: 20px;
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.goalsList-homepage {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.aboutWebsite-homepage {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: white;
+  background-color: #FB8B24;
+}
+
+.about-homepage {
+  background-color: #D90368;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.blogposts-homepage {
+  background-color: #291720;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
   width: 100%;
+  margin-bottom: 50px;
+  z-index: 1;
 }
