@@ -1,3 +1,4 @@
+
 var userAnswer = prompt("Do you want to listen to music? (yes/no)");
 var song = new Audio('newmusic.mp3');
 
