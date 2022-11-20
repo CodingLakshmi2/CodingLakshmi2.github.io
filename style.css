@@ -82,5 +82,5 @@ li {
   position: fixed;
   width: 100%;
   margin-bottom: 50px;
-  z-index: 1;
+  z-index: 50;
 }
